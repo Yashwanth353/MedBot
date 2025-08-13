@@ -6,7 +6,7 @@ MedBot is an AI-powered medical assistant designed to help users with medical qu
 
 ## Demo Video
 
-[Watch the demo video on Google Drive](https://drive.google.com/file/d/17_sp5uO_WfJ2pCOP3qJgCzAIgC_qjtxN/view?usp=sharing)
+[Watch the demo video](https://drive.google.com/file/d/17_sp5uO_WfJ2pCOP3qJgCzAIgC_qjtxN/view?usp=sharing)
 
 ## Features
 
@@ -40,23 +40,13 @@ MedBot/
    ```
 
 2. **Install dependencies:**
-   - For Python:
      ```sh
      pip install -r requirements.txt
      ```
-   - For Node.js:
-     ```sh
-     npm install
-     ```
 
 3. **Run the application:**
-   - For Python:
      ```sh
-     python src/main.py
-     ```
-   - For Node.js:
-     ```sh
-     npm start
+     streamlit run app.py
      ```
 
 4. **Interact with MedBot:**
