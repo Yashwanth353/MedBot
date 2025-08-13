@@ -22,12 +22,8 @@ MedBot/
 │
 ├── vectorstore/
 │   └── index.faiss         # FAISS vector index for semantic search
-├── data/                   # Medical data sources (if any)
-├── src/                    # Source code for MedBot
-│   ├── ...                 # Python/JS/other source files
-├── tests/                  # Unit and integration tests
-├── requirements.txt        # Python dependencies (if applicable)
-├── package.json            # Node.js dependencies (if applicable)
+│   └── index.pkl         # FAISS vector index for semantic search
+├── requirements.txt        # Python dependencies 
 └── README.md               # Project documentation
 ```
 
@@ -49,9 +45,6 @@ MedBot/
      streamlit run app.py
      ```
 
-4. **Interact with MedBot:**
-   - Use the provided CLI, web interface, or API (depending on implementation).
-
 ## Usage
 
 - Ask medical questions in natural language.
@@ -61,10 +54,6 @@ MedBot/
 ## Contributing
 
 Contributions are welcome! Please open issues or submit pull requests for improvements, bug fixes, or new features.
-
-## License
-
-This project is licensed under the MIT License.
 
 ## Disclaimer
 
